@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Signup</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">TechPortal</div>
+</header>
+
+<div class="form-box">
+    <h2>Create Account</h2>
+
+    <form id="regForm">
+
+        <input type="text" id="fullName" placeholder="Full Name">
+        <div class="error" id="nameErr"></div>
+
+        <input type="text" id="email" placeholder="Email">
+        <div class="error" id="emailErr"></div>
+
+        <input type="text" id="user" placeholder="Username">
+        <div class="error" id="userErr"></div>
+
+        <input type="password" id="pass" placeholder="Password">
+        <div class="error" id="passErr"></div>
+
+        <input type="password" id="cpass" placeholder="Confirm Password">
+        <div class="error" id="cpassErr"></div>
+
+        <button type="submit" id="btn">Register</button>
+
+    </form>
+</div>
+
+<script src="register.js"></script>
+
+</body>
+</html>
