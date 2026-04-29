@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <style>
+        body {
+            background-color: rgb(0, 0, 0);
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 30px;
+            width: 350px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 7px;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom: 3px solid gray;
+            background-color: rgb(232, 226, 219);
+            font-size: 14px;
+        }
+
+        button {
+            margin-top: 20px;
+            background-color: #2b84cd;
+            color: azure;
+            border-radius: 5px;
+            padding: 12px;
+            font-weight: bolder;
+            font-size: 20px;
+
+            
+            width: 100px;
+            margin-left: 125px;
+
+
+        }
+
+        button:hover {
+            background-color: #1d5481;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 35px;
+            color: #2d2892;
+
+        }
+
+        label {
+            font-size: 18px;
+            padding-bottom: 8px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="card">
+        <h2>Login</h2>
+
+        <form>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter E-mail">
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder=" Enter Password">
+
+            <button type="submit">Login</button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
